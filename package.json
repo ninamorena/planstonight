@@ -2,6 +2,10 @@
   "name": "planstonight",
   "version": "1.0.0",
   "description": "Nightlife concierge for the busy professional",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninamorena/planstonight.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server"
