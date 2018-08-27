@@ -1,0 +1,8 @@
+# Dependency Directory
+node_modules/
+
+# Compiled directory
+dist/
+
+# ESLint
+eslint.config.js

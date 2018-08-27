@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+$height-entity: 34px;
+$border-radius: 4px;
+
+$spacing-xs: 4px;
+$spacing-s: 8px;
+$spacing-m: 16px;
+$spacing-l: 32px;
+
+.list-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  &__container {
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    padding: $spacing-m;
+
+    &:hover,
+    &:focus {
+      background-color: #eeeeee;
+      cursor: pointer;
+    }
+
+    &__thumbnail {
+      margin-right: $spacing-m;
+    }
+
+    &__content-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-left: $spacing-m;
+    }
+  }
+
+  &__price {
+    margin-left: auto;
+  }
+}
