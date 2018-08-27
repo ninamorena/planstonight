@@ -1,4 +1,4 @@
-# Plans To Night List View with React.js
+# Plans Tonight List View with React.js
 
 This is the repository for my demo list view for a nightlife application with React.js. The list view is
 a combination of the following components:
